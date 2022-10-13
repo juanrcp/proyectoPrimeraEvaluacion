@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 import modelo.ConexionBaseDatos;
 import modelo.Productos_DTOs;
+import modelo.dtoaDto;
 import util.variablesConexionBaseDatos;
 
 public class controlador {
@@ -26,7 +27,7 @@ public class controlador {
 		
 		if(conexionGenerada != null) {
 			
-			//listaAlumnos = dtoaDto.consultaAlumnos.selectAllAlumnos(conexionGenerada);
+			listaAlumnos = dtoaDto.consultaAlumnos.selectAllAlumnos(conexionGenerada);
 
 		}
 
